@@ -15,7 +15,7 @@ Timber <- raster("~/Desktop/Data/TimberProvision/actual_flow/Flow_timber_m3_2012
 Carbon <- raster("~/Desktop/Data/CarbonSequestration/actual_flow/CO2_Uptake_tonnekm2_2012.tif")
 Pollination <- raster("~/Desktop/Data/CropPollination/actual_flow/pollination_actual_flow.tif")/1000
 Outdoor <- raster("~/Desktop/Data/OutdoorRecreation/OutdoorRecreation_2012_VistPerkm2.tif")
-
+# CHANGE THE WD DIR 
 setwd("/Users/caroline/Desktop")
 
 # Make the Provision raster match the other rasters extents
